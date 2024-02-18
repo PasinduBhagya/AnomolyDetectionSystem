@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>IDS Daily Scan Report</title>
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: antiquewhite;
+                }
+                .container {
+                        margin: 50px 50px 50px 50px;
+                        max-width: 100%;
+                        padding: 20px;
+                        background-color: #2237ad10;
+                        box-shadow: 0px 10px 0px rgba(0, 119, 255, 0.07);
+                }
+                h1 {
+                        color: #0a0a0aa0;
+                        font-size: 30px;
+                        margin-bottom: 20px;
+                }
+                p {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                }
+                .sub_titile {
+                        background-color: #e6a20f6a;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        border-left: 4px solid #e47129c2;
+                        color: rgb(18, 1, 36);
+                }
+                .img{
+                        max-width: 100%;
+                        filter: blur(8px);
+                                -webkit-filter: blur(1px);
+                }
+        </style>
+</head>
+<body>
+        <div class="container">
+                <h1>IDS Daily Scan Report</h1>
+                <div class="sub_titile">
+                        <p><strong>IDS Daily Scanned Report:</strong></p>
+                </div>
+<!--                <img src="./images/img1.png" alt="" class="img">-->
+        </div>
+</body>
+
+</html>
+
+

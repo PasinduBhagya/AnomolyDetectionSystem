@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Critical Notification Alert</title>
+
+	<style>
+		body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		}
+
+		.container {
+		  margin: 50px auto;
+		  max-width: 600px;
+		  padding: 20px;
+		  background-color: #ec1212;
+		  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+		}
+
+		h1 {
+		  color: #0052cc;
+		  font-size: 30px;
+		  margin-bottom: 20px;
+		}
+
+		p {
+		  font-size: 16px;
+		  margin-bottom: 10px;
+		}
+
+		.mini-title {
+		  background-color: #dbe9ff;
+		  padding: 10px;
+		  margin-bottom: 20px;
+		  border-left: 4px solid #3385ff;
+		}
+
+		.img-1 {
+		  display: block;
+		  max-width: 90%;
+		  height: auto;
+		  margin: 0 auto;
+		  filter: blur(1px);
+		}
+		h3 {
+			color: #7e7f81;
+			display: block;
+			eight: auto;
+		  	margin: 2%  10%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Intrusion Detection System</h1>
+		<div class="mini-title">
+			<h3><strong><i>Critical IDS Alert </i></h3>
+			<img src="https://www.augmentt.com/wp-content/uploads/2022/12/cyber-security.jpeg" class="img-1">
+
+
+			<script>
+				  var today = new Date();
+				  var yesterday = new Date(today);
+				  yesterday.setDate(yesterday.getDate() - 1);
+
+				  var formattedDate = yesterday.toLocaleDateString(undefined, {
+					month: 'long',
+					day: 'numeric',
+					year: 'numeric'
+				  });
+
+				  document.getElementById("datetime").innerHTML = formattedDate;
+			</script>
+
+		</div>
+	</div>
+</body>
+</html>
+
